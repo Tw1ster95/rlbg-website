@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket League Bulgaria</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d5d311859.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="cookies">We need cookies for some of the website functionality. Do you accept? <button>Accept</button></div>
+
+    <header>
+        <div class="container header-content">
+            <nav>
+                <div class="logo">RLBG</div>
+                <ul class="nav-links">
+                    <li>Home</li>
+                    <li>Tourneys</li>
+                    <li>Contact</li>
+                </ul>
+                <ul class="nav-log"></ul>
+                <a class="nav-icon"><i class="fas fa-angle-down"></i></a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container main-content">
+            <div data-visible="true" id="home" class="section fix-section">
+                <h1>Home Page</h1>
+                <div class="home-grid"></div>
+            </div>
+
+            <div data-visible="false" id="tourneys" class="section hide">
+                <h1>Tourneys</h1>
+                some content for tourneys</br>
+                some content for tourneys</br>
+                some content for tourneys</br>
+                some content for tourneys</br>
+            </div>
+
+            <div data-visible="false" id="contact" class="section hide">
+                <h1>Contact</h1>
+                <div class="content">
+                    <form class="form" id="contact-form">
+                        <div class="infobox hide"></div>
+
+                        <label for="con-subject">Subject:</label>
+                        <input type="text" id="con-subject" placeholder="" value="" minlength="5" maxlength="32" required></input>
+
+                        <label for="con-text">Text:</label>
+                        <textarea id="con-text" placeholder="" value="" minlength="10" maxlength="1024" rows="10" required></textarea>
+
+                        <button class="con-button" type="submit">Send Email</button>
+                    </form>
+                </div>
+            </div>
+
+            <div data-visible="false" id="login" class="section hide">
+                <h1>Login</h1>
+                <form class="form" id="login-form">
+                    <div class="infobox hide"></div>
+
+                    <label for="log-username">Username:</label>
+					<input type="text" id="log-username" placeholder="Username" value="" minlength="5" maxlength="32" required></input>
+
+                    <label for="log-password">Password:</label>
+					<input type="password" id="log-password" placeholder="********" value="" minlength="5" maxlength="32" required></input>
+
+                    <div class="one-line"><input type="checkbox" id="log-remember"></input> Remember me</div>
+
+                    <button class="log-button" type="submit">Login</button>
+                </form>
+            </div>
+
+            <div data-visible="false" id="register" class="section hide">
+                <h1>Register</h1>
+                <form class="form" id="reg-form">
+                    <div class="infobox hide"></div>
+
+                    <label for="reg-username">Username:</label>
+					<input type="text" id="reg-username" placeholder="Username" value="" minlength="5" maxlength="32" required>
+
+                    <label for="reg-email">Email:</label>
+					<input type="email" id="reg-email" placeholder="email@gmail.com" value="" maxlength="32" required>
+
+                    <label for="reg-password">Password:</label>
+					<input type="password" id="reg-password" placeholder="********" value="" minlength="5" maxlength="32" required>
+					<input type="password" id="reg-password2" placeholder="********" value="" minlength="5" maxlength="32" required>
+
+                    <button class="reg-button" type="submit">Register</button>
+                </form>
+            </div>
+
+            <div data-visible="false" id="profile" class="section hide">
+                <h1>Profile</h1>
+                <div class="content"></div>
+            </div>
+            
+            <div data-visible="false" id="extra_page" class="section hide"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-text">
+                <p>Copyright RLBG 2047.</p>
+                <div class="footer-links">
+                    <p>Helpfull links:</p>
+                    <a href="#">Discord</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="footer-links">
+                    <p>Social links:</p>
+                    <a href="#">Twitter</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

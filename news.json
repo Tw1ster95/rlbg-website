@@ -1,0 +1,32 @@
+{
+    "6": {
+        "title": "Season 5 is here",
+        "content": "some description to Season 5 is here",
+        "image": "img/news/s5here.jpg"
+    },
+    "5": {
+        "title": "Season 5 is here",
+        "content": "some description to Season 5 is here",
+        "image": "img/news/s5here.jpg"
+    },
+    "4": {
+        "title": "Who you gonna call? Ghostbusters!",
+        "content": "some description to Who you gonna call? Ghostbusters!",
+        "image": "img/news/ghostdlc.jpg"
+    },
+    "3": {
+        "title": "The bmw 240i is here!",
+        "content": "some description to The bmw 240i is here!",
+        "image": "img/news/bmwm240i.jpg"
+    },
+    "2": {
+        "title": "Back to the future is back, again!",
+        "content": "some description to ",
+        "image": "img/news/back2thefutureagain.jpg"
+    },
+    "1": {
+        "title": "Haunted Hallows X Batman!",
+        "content": "some description to Haunted Hallows X Batman!",
+        "image": "img/news/hauntedhallowsbatman.jpg"
+    }
+}
